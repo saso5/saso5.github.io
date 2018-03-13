@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Moldlis bookmarklet</title>
+</head>
+
+<body>
+<h1>Moldlis bookmarklet<h1>
+<p>Drag the anchor to the bookmark toolbar</p>
+
+<a href="javascript: (function () { var url = window.location.href; url = url.replace(/(.*?[\?\#])/i, "http://127.0.0.1:8888/gdb.html?gwt.codesvr=127.0.0.1:9997&"); window.location = url;}());">
+DevToggle
+</a>
+
+</body>
+</html>
