@@ -8,7 +8,7 @@
 <h1>Moldlis bookmarklet<h1>
 <p>Drag the anchor to the bookmark toolbar</p>
 
-<a href="javascript: (function () { var url = window.location.href; url = url.replace(/(.*?[\?\#])/i, "http://127.0.0.1:8888/gdb.html?gwt.codesvr=127.0.0.1:9997&"); window.location = url;}());">
+<a href="javascript: (function () {   var regex = new RegExp('(.*?)/apps/([a-z]*)/[\?]?(.*$)', 'i');  let result = regex.exec(window.location.href);  var newUrl = 'http://127.0.0.1:8888/' + result[2].toLowerCase() + '.html?gwt.codesvr=127.0.0.1:9997&' + result[3];  window.location = newUrl;}());">
 DevToggle
 </a>
 
