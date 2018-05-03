@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Informativni izračun komunalnega prispevka za občino Postojna</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+	<style>
+		#container {
+			margin: 15px;
+			max-width: 960px;
+		}
+		tr.bold td {
+			font-weight: bold;
+		}
+	</style>
+	<script>
+		function calculate() {
+			clearTable();
+		
+			var inputs = document.getElementsByTagName('select');
+			var parcel = parseInt(document.getElementById('parcel').value);
+			var tloris = parseInt(document.getElementById('tloris').value);
+			var index = 1.3;
+			var dejavnost = 0.70;
+			var dp = 0.3;
+			var dt = 0.7;
+			
+			var sum = 0;
+			for (var i=0; i<inputs.length; i++){
+				var input = inputs[i];
+				var cp = parseFloat(input.options[input.selectedIndex].getAttribute('data-cp'));
+				var ct = parseFloat(input.options[input.selectedIndex].getAttribute('data-ct'));
+				
+				var inputSum = (parcel * cp * index * dp) + (dejavnost * tloris * ct * index * dt);
+				appendSummaryItmeElement(input, inputSum);
+				sum += inputSum;
+			}
+			var sumRow = appendSummaryItme("Skupaj", sum);
+			sumRow.classList.add("bold");;
+		}
+		
+		function clearTable(){
+			document.getElementById('tableSumBody').innerHTML = "";
+		}
+		
+		function appendSummaryItmeElement(element, inputSum){
+			var label = document.querySelector('[for="' + element.name + '"]');
+			appendSummaryItme(label.innerHTML, inputSum);
+		}
+		
+		function appendSummaryItme(labelText, inputSum){
+			var row = document.createElement("tr");
+			
+			var text = document.createElement("td");
+			text.innerHTML = labelText;
+			row.appendChild(text);
+			
+			var sum = document.createElement("td");
+			sum.innerHTML = inputSum.toFixed(2); + " €";
+			row.appendChild(sum);
+			
+			document.getElementById("tableSumBody").appendChild(row);
+			
+			return row;
+		}
+	
+	</script>
+</head>
+
+<body class="bg-light">
+	<div  id="container">
+	
+	<h1 class="py-5 text-center">Izračun komunalnega prispevka za občino Postojna</h1>
+	
+	<div class="py-2 text-center" style="margin-top:-20px">
+		<p>Izračun po forumili iz <a href="https://www.postojna.si/files/other/acts/105/75936ODLOK-O-PODLAGAH-ZA-ODMERO-KOMUNALNEGA-PRISPEVKA-ZA-OBMOČJE-OBČINE-POSTOJNA-2.pdf">odloka</a>
+		<br/>
+		<code>SUM (KPij = (Aparcela • Cpij1 • Dp) + (Kdejavnost • Atlorisna • Ctij1 • Dt))</code></p>
+	</div>
+	
+	<form>
+		<div class="form-group">
+			<label for="parcela">Parcela (m<sup>2</sup>)</label>
+			<input type="number" name="parcela" id="parcel" class="form-control" ></input>
+		</div>
+		
+		<div class="form-group">
+			<label for="tloris">Neto tlorisna površina objekta (m<sup>2</sup>)</label>
+			<input type="number" name="tloris" id="tloris" class="form-control"></input>
+		</div>
+		
+		<div class="form-group">
+			<label for="prom_omr">Prometno omrežje</label>
+			<select name="prom_omr" class="form-control">
+				<option data-cp="4.79" data-ct="12.40">C1 – omrežje cest - omrežje delno opremljeno območje</option>
+				<option data-cp="13.40" data-ct="29.69">C2 – omrežje cest – opremljeno območje naselij Postojna, Veliki Otok, Stara vas in Prestranek</option>
+				<option data-cp="7.24" data-ct="20.51">C3 – omrežje cest – opremljeno območje ostalih naselij</option>
+			</select>
+		</div>
+		
+		<div class="form-group">
+			<label for="kan_omr">Kanalizacijsko omrežje</label>
+			<select name="kan_omr" class="form-control">
+				<option data-cp="0" data-ct="0">Brez</option>
+				<option data-cp="2.14" data-ct="5.57">K1 – omrežje kanalizacije – delno opremljeno območje</option>
+				<option data-cp="5.19" data-ct="13.73">K2 – omrežje kanalizacije – opremljeno območje</option>
+			</select>
+		</div>
+		
+		<div class="form-group">
+			<label for="vod_omr">Vodovodno omrežje</label>
+			<select name="vod_omr" class="form-control">
+				<option data-cp="0" data-ct="0">Brez</option>
+				<option data-cp="2.08" data-ct="6.98">V1 – omrežje vodovoda – delno opremljeno območje</option>
+				<option data-cp="3.32" data-ct="11.24">V2 – omrežje vodovoda –  opremljeno območje</option>
+			</select>
+		</div>
+		
+		<div class="form-group">
+			<label for="odp_omr">Omrežje objektov ravnanja z odpadki</label>
+			<select name="odp_omr" class="form-control">
+				<option data-cp="0" data-ct="0">Brez</option>
+				<option data-cp="0.18" data-ct="0.46">KOM – ravnanje z odpadki – opremljeno območje</option>
+			</select>
+		</div>
+		
+		<div class="form-group">
+			<label for="jp_omr">Omrežje odprtih javnih površin</label>
+			<select name="jp_omr" class="form-control">
+				<option data-cp="0" data-ct="0">Brez</option>
+				<option data-cp="1.23" data-ct="3.00">JP – odprte javne površine – opremljeno območje</option>
+			</select>
+		</div>
+		
+		<div class="form-group">
+			<label for="">Izračun</label>
+			<input type="button" onclick="calculate()" value="Izračun"></input>
+		</div>
+		
+	</form>
+	
+	
+	<table class="table">
+	  <thead>
+		<tr>
+		  <th scope="col">Komunalna oprema</th>
+		  <th scope="col">Komunalni prispevek</th>
+		</tr>
+	  </thead>
+	  <tbody id="tableSumBody">
+	  </tbody>
+	</table>
+</div>
+
+<script>
+document.addEventListener('input', function (evt) {
+	calculate();
+});
+</script>
+
+</body>
+
+</html>
