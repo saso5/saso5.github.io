@@ -34,6 +34,8 @@ document.getElementsByClassName('board-list').forEach(board => {
 <a href="javascript:document.getElementsByClassName('board-list').forEach(board => {	const cards = board.getElementsByClassName('board-info-items');	var weightMap = [];		cards.forEach(item => {		var weight = item.getElementsByClassName('board-card-info-text').item(0)?.innerHTML || 0;		const card = item.parentNode.parentNode.parentNode.parentNode;				weightMap.push([ 1 * weight, card]);	});		weightMap.sort(function(x, y) {		return y[0] - x[0];	});		weightMap.forEach(element => board.appendChild(element[1]));});;">
 Sort board
 </a>
+<br/><br/>
+<img src="gitlab-board-sort-by-weight.gif"/>
 
 </body>
 </html>
