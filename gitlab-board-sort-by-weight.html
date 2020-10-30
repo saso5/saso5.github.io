@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>GitLab board sort by weight bookmarklet v2</title>
+<title>GitLab board sort bookmarklets v3</title>
 </head>
 
 <script>
-/* script
+/* 
+-- SORT BY WIGHT
 document.getElementsByClassName('board-list').forEach(board => {
 	const cards = board.getElementsByClassName('board-info-items');
 	var weightMap = [];
@@ -23,18 +24,42 @@ document.getElementsByClassName('board-list').forEach(board => {
 	
 	weightMap.forEach(element => board.appendChild(element[1]));
 });
+
+-- SORT BY LABEL PRIORITY
+document.querySelectorAll(".board-list").forEach(board => {
+	const labelPriorityMap = ["priority-low", "priority-medium", "priority-high", "priority-urgent"];
+	Array.from(board.querySelectorAll(".board-card")).map(card =>  {
+		var priority = Array.from(card.querySelectorAll(".gl-label-text"))
+						.map(label => labelPriorityMap.indexOf(label.innerHTML))
+						.filter(labelPriority => labelPriority != -1)
+						.reduce((x, y) => x + y, 0);
+		
+		console.log([priority, card]);
+		return [priority, card];
+	})
+	.sort((x, y) => y[0] - x[0])
+	.forEach(element => board.appendChild(element[1]));
+});
+
 */
 
 </script>
 
 <body>
-<h1>GitLab board sort by weight bookmarklet v2</h1>
+<h1>GitLab board sort bookmarklets v3</h1>
 <p>Drag the anchor to the bookmark toolbar</p>
 
 <a href="javascript:document.getElementsByClassName('board-list').forEach(board => {	const cards = board.getElementsByClassName('board-info-items');	var weightMap = [];		cards.forEach(item => {		var weight = item.getElementsByClassName('board-card-weight').item(0)?.getElementsByClassName('board-card-info-text').item(0)?.innerHTML || 0;		const card = item.parentNode.parentNode.parentNode.parentNode;				weightMap.push([ 1 * weight, card]);	});		weightMap.sort(function(x, y) {		return y[0] - x[0];	});		weightMap.forEach(element => board.appendChild(element[1]));});">
-Sort board
+Sort board by weight 
 </a>
-<br/><br/><br/><br/><br/><br/><br/>
+<br/>
+
+<a href="javascript:document.querySelectorAll(".board-list").forEach(board => {const labelPriorityMap = ["priority-low", "priority-medium", "priority-high", "priority-urgent"];Array.from(board.querySelectorAll(".board-card")).map(card =>  {var priority = Array.from(card.querySelectorAll(".gl-label-text")).map(label => labelPriorityMap.indexOf(label.innerHTML)).filter(labelPriority => labelPriority != -1).reduce((x, y) => x + y, 0);return [priority, card];}).sort((x, y) => y[0] - x[0]).forEach(element => board.appendChild(element[1]));});">
+Sort board by label priority 
+</a>
+<br/>
+	
+<br/><br/><br/><br/><br/><br/>
 	
 <b>Installation instructions</b><br/>
 <img src="gitlab-board-sort-by-weight.gif"/>
