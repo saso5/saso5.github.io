@@ -29,7 +29,7 @@ document.querySelectorAll('.board-list').forEach(board => {
 	const labelPriorityMap = ['priority-low', 'priority-medium', 'priority-high', 'priority-urgent'];
 	Array.from(board.querySelectorAll('.board-card')).map(card =>  {
 		var priority = Array.from(card.querySelectorAll('.gl-label-text'))
-						.map(label => labelPriorityMap.indexOf(label.innerHTML))
+						.map(label => 1 + labelPriorityMap.indexOf(label.innerHTML))
 						.filter(labelPriority => labelPriority != -1)
 						.reduce((x, y) => x + y, 0);
 		
@@ -52,7 +52,7 @@ Sort board by weight
 </a>
 <br/>
 
-<a href="javascript:document.querySelectorAll('.board-list').forEach(board => {const labelPriorityMap = ['priority-low', 'priority-medium', 'priority-high', 'priority-urgent'];Array.from(board.querySelectorAll('.board-card')).map(card =>  {var priority = Array.from(card.querySelectorAll('.gl-label-text')).map(label => labelPriorityMap.indexOf(label.innerHTML)).filter(labelPriority => labelPriority != -1).reduce((x, y) => x + y, 0);return [priority, card];}).sort((x, y) => y[0] - x[0]).forEach(element => board.appendChild(element[1]));});">
+<a href="javascript:document.querySelectorAll('.board-list').forEach(board => {const labelPriorityMap = ['priority-low', 'priority-medium', 'priority-high', 'priority-urgent'];Array.from(board.querySelectorAll('.board-card')).map(card =>  {var priority = Array.from(card.querySelectorAll('.gl-label-text')).map(label => 1+labelPriorityMap.indexOf(label.innerHTML)).filter(labelPriority => labelPriority != -1).reduce((x, y) => x + y, 0);return [priority, card];}).sort((x, y) => y[0] - x[0]).forEach(element => board.appendChild(element[1]));});">
 Sort board by label priority 
 </a>
 <br/>
