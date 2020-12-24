@@ -1,0 +1,145 @@
+<html>
+<head>
+  <title>LYWSD02 Clock sync</title>
+</head>
+
+<body >
+<h1>LYWSD02 Clock sync </h1>
+
+<h2>Xiaomi Mijia BT4.0 Wireless Smart Electric Digital Clock Indoor & Outdoor Hygrometer Thermometer</h2>
+<img src="https://imgaz3.staticbg.com/thumb/large/oaupload/banggood/images/74/DF/f05ddb02-4334-48a1-8785-39c4a5d9d9c1.jpg.webp" width="300"/>
+
+<fieldset>
+  <legend>Time sync:</legend>
+  <label for="zone">Time zone:</label>
+  <input type="number" id="zone" name="zone" min="-12" max="14" value="0"><br>
+  <button onclick="updateTime()">Update time</button>
+</fieldset>
+
+<!--
+<fieldset>
+  <legend>Update unit:</legend>
+  <input type="radio" id="c" name="unit" value="255" checked>
+  <label for="c">C</label><br>
+  <input type="radio" id="f" name="unit" value="0">
+  <label for="f">F</label><br>
+  <button onclick="updateUnit()">Update units</button>
+</fieldset>
+-->
+
+
+<fieldset>
+  <legend>Console:</legend>
+  <div id="console"></div>
+</fieldset>
+
+</br></br>
+<p>
+  <b>Based on code snippets from: </b>
+  <li><a href="https://web.dev/bluetooth/" target="_blank" rel="noopener">Web.dev</a>
+  <li><a href="https://github.com/h4/lywsd02/blob/master/lywsd02/client.py" target="_blank" rel="noopener">lywsd02</a>
+</p>
+
+<script>
+
+const TIME_SERVICE = 'ebe0ccb0-7a0a-4b0c-8a1a-6ff2997da3a6';
+const TIME = 'ebe0ccb7-7a0a-4b0c-8a1a-6ff2997da3a6';
+const UNIT = 'ebe0ccbe-7a0a-4b0c-8a1a-6ff2997da3a6';
+
+setTimeZone();
+
+function setTimeZone() {
+  let offset = new Date().getTimezoneOffset();
+  document.getElementById('zone').value = -(parseInt(offset/60));
+}
+
+function updateTime() {
+  getCharecteristics(TIME_SERVICE, TIME)
+    .then(function (characteristic) {
+	  log('Writting time value...')
+      return characteristic.writeValue(getCurrentTime());
+    })
+    .then(function () {
+      log('Time updated.');
+    })
+    .catch(function (error) {
+      log(error);
+    });
+}
+
+function updateUnit() {
+  getCharecteristics(TIME_SERVICE, UNIT)
+    .then(function (characteristic) {
+	  let unitValue = parseInt(document.querySelector('input[name="unit"]:checked').value);
+	  log('Writting unit value (' + unitValue + ')...')
+	  
+	  console.log(Uint8Array.of(unitValue));
+	  //console.log(Uint8Array.of(unitValue).getUintValue(0));
+	  
+      return characteristic.readValue();
+    })
+    .then(function (value) {
+	  console.log(value.getUint8(0));
+      log('Unit updated');
+    })
+    .catch(function (error) {
+      log(error);
+    });
+}
+
+
+function getCharecteristics(service, characteristic) {
+  if (!('bluetooth' in navigator)) {
+    throw 'Bluetooth API not supported.';
+  }
+  
+  let options = {
+	acceptAllDevices: true,
+	optionalServices: [service]
+  };
+  
+  return navigator.bluetooth.requestDevice(options)
+    .then(function (device) {
+	  log('Connecting...')
+      return device.gatt.connect();
+    })
+    .then(function (server) {
+	  log('Getting primary service...')
+	  return server.getPrimaryService(service);
+    })
+    .then(function (service) {
+	  log('Getting characteristic...')
+      return service.getCharacteristic(characteristic);
+    });
+}
+
+function log(message) {
+  let element = document.getElementById('console');
+  console.log(message);
+  element.innerHTML = message;
+}
+
+function getCurrentTime() {
+  let buffer = new ArrayBuffer(5);
+  new DataView(buffer).setUint32(0, parseInt(Date.now()/1000), true /* littleEndian */);
+  
+  let zone = parseInt(document.getElementById('zone').value);
+  
+  new DataView(buffer).setUint8(4, zone);
+  
+  return buffer;
+}
+
+</script>
+<style>
+body {
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+fieldset > * {
+  margin: 5px;
+}
+</style>
+</body>
+</html>
