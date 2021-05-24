@@ -13,7 +13,9 @@
 <fieldset>
   <legend>Time sync:</legend>
   <label for="zone">Time zone:</label>
-  <input type="number" id="zone" name="zone" min="-12" max="14" value="0"><br>
+  <input type="number" id="zone" name="zone" min="-12" max="14" value="0" /><br>
+  <label for="30minOffset">Add 30min offset:</label>
+  <input type="checkbox" id="30minOffset" name="30minOffset" /><br>
   <button onclick="updateTime()">Update time</button>
 </fieldset>
 
@@ -123,10 +125,14 @@ function log(message) {
 }
 
 function getCurrentTime() {
+  let is30MinOffset = document.getElementById('30minOffset').checked;
+  let dateTime = parseInt(Date.now()/1000) + (is30MinOffset ? 30 * 60 : 0);
+
   let buffer = new ArrayBuffer(5);
-  new DataView(buffer).setUint32(0, parseInt(Date.now()/1000), true /* littleEndian */);
+  new DataView(buffer).setUint32(0, dateTime, true /* littleEndian */);
   
   let zone = parseInt(document.getElementById('zone').value);
+  
   
   new DataView(buffer).setUint8(4, zone);
   
