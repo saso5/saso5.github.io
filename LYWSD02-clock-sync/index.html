@@ -19,17 +19,14 @@
   <button onclick="updateTime()">Update time</button>
 </fieldset>
 
-<!--
 <fieldset>
   <legend>Update unit:</legend>
-  <input type="radio" id="c" name="unit" value="255" checked>
+  <input type="radio" id="c" name="unit" value="0" checked>
   <label for="c">C</label><br>
-  <input type="radio" id="f" name="unit" value="0">
+  <input type="radio" id="f" name="unit" value="1">
   <label for="f">F</label><br>
   <button onclick="updateUnit()">Update units</button>
 </fieldset>
--->
-
 
 <fieldset>
   <legend>Console:</legend>
@@ -73,21 +70,24 @@ function updateTime() {
 }
 
 function updateUnit() {
-  getCharecteristics(TIME_SERVICE, UNIT)
-    .then(function (characteristic) {
-	  let unitValue = parseInt(document.querySelector('input[name="unit"]:checked').value);
-	  log('Writting unit value (' + unitValue + ')...')
-	  
-	  console.log(Uint8Array.of(unitValue));
-	  //console.log(Uint8Array.of(unitValue).getUintValue(0));
-	  
-      return characteristic.readValue();
-    })
-    .then(function (value) {
-	  console.log(value.getUint8(0));
+  let unitValue = parseInt(document.querySelector('input[name="unit"]:checked').value);
+
+  let charPromise = getCharecteristics(TIME_SERVICE, UNIT);
+
+  let readPromise = charPromise.then(c=>c.readValue());
+  
+  Promise.all([charPromise, readPromise])
+    .then(function([characteristic, value]) {
+      let oldValue = value.getUint8(0);
+      log('Writting unit value (' + oldValue + ' -> ' + unitValue + ')...')
+    
+      let buffer = new ArrayBuffer(1);
+      new DataView(buffer).setUint8(0, unitValue);
+
+      return characteristic.writeValue(buffer);
+    }).then(function() {
       log('Unit updated');
-    })
-    .catch(function (error) {
+    }).catch(function (error) {
       log(error);
     });
 }
@@ -99,7 +99,9 @@ function getCharecteristics(service, characteristic) {
   }
   
   let options = {
-	acceptAllDevices: true,
+    filters: [
+      {name: 'LYWSD02'},
+    ],
 	optionalServices: [service]
   };
   
