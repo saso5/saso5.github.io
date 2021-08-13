@@ -108,10 +108,8 @@ function getCharecteristics(service, characteristic) {
   }
   
   let options = {
-    filters: [
-      {name: 'LYWSD02'},
-    ],
-	optionalServices: [service]
+    acceptAllDevices: true,
+    optionalServices: [service]
   };
   
   return navigator.bluetooth.requestDevice(options)
