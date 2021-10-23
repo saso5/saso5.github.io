@@ -99,7 +99,7 @@ async function sendCommand() {
 async function calibrate() {
   await initConnection();
   
-  await writeChar.writeValue(0xAD);
+  await writeChar.writeValue(Uint8Array.of(0xAD));
   log('Calabration started');
 }
 
