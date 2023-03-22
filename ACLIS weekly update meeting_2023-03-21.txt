@@ -1,0 +1,1003 @@
+Delia:Then, until Gillian joins, I think we can start with the reporting.
+Delia:And what I did this week, I finished the legal register use cases and requirements.
+Delia:Thread acceptance criteria for those. Also I finished address register and currently I'm working on register persons. I'll finish it today or tomorrow.
+Delia:The requirements have user access have acceptance criteria. I need to add the use cases.
+Delia:Over and plus.
+Blaz:Ohm basically working on spatial register specifications whole week.
+Blaz:I have some 15 requirements uh left for interoperability with other registers and then I think this will be it for a special register for this round.
+Blaz:Ohh other stuff is related to those special business processes for first registration and my data improvement legalization of buildings.
+Blaz:Uh.
+Blaz:But yeah, then I'll continue with the case management.
+Blaz:But I'm no longer confident to be able to finish document management as well this week, so I I figured it's better to have case management than document management.
+Blaz:Because document management also has like half of it is related to document templating which I'm not that familiar with so.
+Blaz:It I think it will require more more time and more discussions.
+Blaz:Ohh and I.
+Blaz:I imagined it would be better to go through general requirements and business rules.
+Blaz:Uh, before we.
+Blaz:Submit the the whole documents to SA.
+Blaz:That's it from my side or.
+Delia:Session.
+Saso Petrovic:And also in my documents, so we should probably send before you continue with that. But I I was working on the in general picture and database model.
+Saso Petrovic:Means and also getting the list of hardware minimum hardware requirements. But I also already provided to the AU representative John Carlo.
+Saso Petrovic:But we decided that we will change the a bit because we want to have it more virtualized. We are friendly, so I'm working on that without IT guys in house so.
+Delia:Thank you, Elton.
+Tony:OK. We are just reviewing what you have, what you have submitted. So we I we do not have any any anything new from our side basically we are just waiting for for any response from rezar related to our issues.
+Tony:What I can say is that I got some documents from Mariana which is the.
+Tony:Very few, very few.
+Tony:Technic.
+Tony:Still specification clearing, so they they say so I I was expecting to have them from rezar but in any case I'm forwarding the.
+Tony:I'm forwarding it to you, maybe you can review it and.
+Tony:See what?
+Tony:To to, to my opinion the there is nothing.
+Tony:The.
+Tony:Uh, let is going to delay somehow our preparation. Maybe we can include something in our in our final document, but.
+Tony:In any case, I'm forwarding it too.
+Tony:Delia.
+Tony:And.
+Tony:Alright, now.
+Delia:Are you?
+Delia:I don't think that we will have time to review them because we already are short on time, take into account that.
+Delia:Our.
+Delia:Times for preparing the output, one was reduced.
+Tony:They they are so short that I think you have time. Just never look.
+Delia:It's not. It's not. It's not that it's a big document. It's OK, like if it's short. Yeah, I will take a look.
+Tony:So that it's a, it's a very, very, very short.
+Tony:A document. So just just to be you know there there are a couple of schemas related to 1st registration with access without taxes.
+Tony:At least and some some points in for a lady to technical discussion. So in any case I'm sending it to you and let's see.
+Tony:If there is something I I think that we will get the the same included in in response from Rezaian, that's why.
+Tony:I I'm being a little. I'm sending it to be a little the to to be a little in advance for reading those.
+Tony:From a another thing from our side is that we need the we need some instruction. We we got the.
+Tony:This is from for Sasha. Mainly we got the details for connecting to the network to the VPN but we need some details on how to access the database and source code and so on. So also we would like to have a access to to to the software itself and.
+Tony:Please if it is possible to meet if it is the if you have time to make it possible for us to have a look at the soccer and so.
+Delia:To manage the software like you mean you mean to look at the system.
+Tony:Yeah.
+Delia:Think that you already have access for case management and for spatial, my correct.
+Tony:This yeah.
+Tony:For space.
+Delia:For legal.
+Tony:Umm.
+Delia:Uh to legal at the moment at the moment.
+Delia:I don't think the task will have time to provide to arrange the things and you will not be able to test anything because there is no data.
+Tony:OK.
+Delia:And the in Moldova, the process was had a lot of business rules which you don't have, at least in the requirement that you have now, like we can, we can return to this once we finished without put one if you're OK with this.
+Tony:Yeah, yeah, yeah, of course. No, not not a problem at this point. That's why I've not been pushing about that, but.
+Tony:The.
+Tony:I I will need the access to the database to have a look at the database.
+Delia:And such.
+Saso Petrovic:Uh, yes, we will provide you with the access to the database, said instructions.
+Tony:Or or or you can provide the the database itself so we don't have to go always the the the database and the current state. You can provide it on the weekend, install it here and we have a look here so.
+Tony:It can be easier for you and easier for us also.
+Tony:I know that, uh, you will change it, but let I I we need to have a look right now at the how how it is now.
+Tony:Is it OK?
+Saso Petrovic:And you think I send you them dump them?
+Tony:OK, just a dump. So we we installed it here and see.
+Delia:OK.
+Delia:OK, question like through which requirements you managed to?
+Delia:To take a look.
+Tony:Ohh I I.
+Tony:The simple one the the code list I had the look and it it was not nothing to to report.
+Tony:So I'm also I'm looking at the and the. The leg again is looking at legal and she she will. She will like that or each of them.
+Tony:OK.
+Delia:OK, OK.
+Delia:And.
+Shefqet Lulja:I also I check the.
+Gena:I have request OK.
+Shefqet Lulja:Yeah, I.
+Delia:OK. OK, first of the first one.
+Shefqet Lulja:It's OK. Yeah. OK. So I also started to to review the document that.
+Shefqet Lulja:The BLAZ provided and yeah I did some minor comments.
+Shefqet Lulja:Uh, and I also provided the.
+Shefqet Lulja:The.
+Shefqet Lulja:The regulation that that Blaz ask and I continue to to.
+Shefqet Lulja:To comment on the on the Word document, but just some minor comments just.
+Shefqet Lulja:Continue all the discussion that.
+Shefqet Lulja:You also already started.
+Shefqet Lulja:And I haven't finished but.
+Shefqet Lulja:The in general because we actually.
+Shefqet Lulja:I on the same path of the torso.
+Shefqet Lulja:We we didn't have any major.
+Shefqet Lulja:The changes so just some small qualification.
+Shefqet Lulja:Which I I did like comments.
+Shefqet Lulja:And I think at the end of the day, I will finish with the whole document.
+Shefqet Lulja:But I kept commenting in.
+Shefqet Lulja:In some topics.
+Shefqet Lulja:And I will finish, I think.
+Shefqet Lulja:And today or tomorrow morning.
+Delia:OK.
+Shefqet Lulja:Based on the Blaz there blaze based on the Blaz document regarding the spatial register.
+Blaz:Yeah. Regarding that, have you noticed that I moved to basically all the the content that's prepared to the common document?
+Shefqet Lulja:Yeah, yeah, you already commented there.
+Blaz:OK. OK. Nice. Just so that, yeah.
+Delia:OK, gena.
+Gena:I have. Hi, everybody. Sorry I wasn't able to work these days but now I am better and I will be able to review all the comments and everything that you have put there.
+Gena:I have a question about apply system requirements. Is the document that you have upload there in output 1? Yes.
+Gena:I want to ask how can I work here with comments or with the exchanges. How do you want to?
+Gena:Make my comments to this document.
+Delia:I have provided instructions in the ticket.
+Gena:Umm yeah.
+Delia:Ideal ideally would be if there is something.
+Delia:Wrong and you have a specifications or something is missing.
+Gena:Yes, yes, I I I look at this, but just to the document.
+Gena:Because I see you have comments you have, next I comments here with yes with comment.
+Delia:No, not this comma. This document. OK, you will be reviewing this document.
+Gena:Uh-huh.
+Delia:And the ether noticed something. If it's just a small comment, you can put it as a comment. Please no track changes because.
+Gena:OK. Umm.
+Delia:We need to to to to have a common agreement, a common understanding it before we include this, but if there is something like missing functionality and the OR something that you think that is totally wrong, it is better to open an issue. I provided the link to the external git.
+Gena:Yes, but yeah, I understand.
+Delia:So which had also accessed Marianna's team and so they could participate if it would be needed and if they would be willing in the future.
+Gena:Yes, yes, but before to present it to Marianna or to other stakeholders. I thought to make comments to the document and then you can decide or we can all decide it in this small or big.
+Gena:Why?
+Delia:The.
+Gena:Yeah, the decide.
+Delia:Yeah, this is was my suggestion as well. So we are on the same page, OK.
+Delia:Uh.
+Gena:Inside.
+Delia:OK, but please keep in mind that the comments will be regarding the functionality.
+Gena:Only functionality, not anything else.
+Delia:They like the process that they will attach a proxy or they will attach another type of document for us is not important, is the important is to have the functionality to attach a document for example.
+Gena:Please repeat. I I didn't listen. Sorry.
+Gena:Uh-huh.
+Gena:Yeah.
+Delia:Try to focus on the functionality that needs to support the processes. For example, you are a lawyer. The lawyer will think like this. We need the client to provide the proxy and the contract of sales and they need to be attached. We don't need this information that there will be a proxy or a contract. We need the information only that there's need there is needed.
+Delia:Option to be able to attach a document.
+Gena:Umm.
+Delia:OK.
+Gena:That that's a document I don't understand. What does it mean?
+Gena:Sorry.
+Mihael Kadunc:Maybe I can try to rephrase.
+Delia:Yeah, please.
+Gena:Yes, thank you.
+Gena:Umm.
+Mihael Kadunc:You're process description contains a lot of details that are important to the lawyer. Going through that process.
+Mihael Kadunc:But that those details do not mean any difference for the functionality that is required in the application.
+Mihael Kadunc:So.
+Gena:Also.
+Mihael Kadunc:You may have in your process several different types of documents that are.
+Mihael Kadunc:Required to be attached to the case in different scenarios.
+Gena:Yes.
+Gena:Yes.
+Mihael Kadunc:But you do not have to go into details for uh, these requirements and business rules and the types of documents because the only functionality that is required in the application to support all of those requirements or those processes is the ability for the user to attach a document to the process. So the attaching documents to a process is a generic functionality that supports multiple.
+Mihael Kadunc:Scenarios and business requirements.
+Gena:Umm OK.
+Mihael Kadunc:And they are just asks you to try and focus on.
+Gena:That's.
+Mihael Kadunc:Those parts of the process, which require different types of functionalities in the case and to not focus too much on specifics of each particular case that actually do not mean anything different for the application.
+Gena:Umm. And that that are not important in this case, let's say.
+Mihael Kadunc:Yes.
+Gena:Of the process are are important later in the development phase. This this you mean.
+Mihael Kadunc:I mean that those details are important for the person executing the process.
+Gena:Yes.
+Gena:Google.
+Mihael Kadunc:But they are not important for us developing the application, which is just a tool that allows you to execute this process.
+Gena:OK, yes, I understand now. Thank you.
+Gena:Thank you, ma'am.
+Delia:OK.
+Delia:Umm OK I am you provided the comment we can start. We can look at it because for me it's not clear what.
+Delia:What you.
+Delia:Meant.
+Delia:OK.
+Gena:Where in the issue #21 you mean or not?
+Gena:Or you are talking about the document. At least system requirement now.
+Gena:Delia.
+Delia:Yes, in the resident Juan, regarding legal register.
+Gena:Oh, OK, yeah.
+Gena:Yes, I make another comment because I didn't know that you have made the update of the the.
+Gena:Select the first registration and you include here even the illegal legislation legalization, let's say.
+Gena:And I have made another comment and I refer now to the.
+Gena:Sites that you have described.
+Gena:And make OK what I think is OK and the only difference now is that the registration of compliance use case.
+Gena:Means the same as the other transactions.
+Gena:So we've covered by translation is gay.
+Gena:This is what I suggest.
+Delia:Uh, so, OK, so I just saw the last the last comment, OK. So the idea, the idea is that there are common processes.
+Gena:Yes.
+Delia:What Nika explained, and I think like you understood like the way you should look at this document.
+Gena:Uh-huh.
+Delia:OK, but this we have clarified.
+Delia:Uh, regard. I will have some questions regarding first registration we discussed yesterday, it's with Blaz.
+Delia:And the could. Can you please confirm that in our understanding in my understanding, firstly first registration.
+Delia:It's called like the mass first registration, but the facto they'll all be already at least kartelas in that cadastral office. Cadastral zone. Is my understanding correct?
+Delia:Yes.
+Gena:Our first registration is is when it made, it must be selected or it must be massive. It depends, but the first registration it means when the property is registered for the first time.
+Gena:The the Kartela is open for the.
+Delia:Yeah, I know, I know this. No, no, no. The question is the following. They describe we have in the technical justification.
+Gena:Yes, last week.
+Delia:A massive first registration when they will import a lot of data. My question is.
+Delia:We'll be in this cadastral zone where will be executed. Massive first registration already objects that were registered during the selective.
+Delia:First registration.
+Gena:No. If there is something that is easy, there are some objects already register you mean?
+Gena:And if they will be included in the massive legislation, I don't understand the question.
+Delia:OK.
+Delia:Could that was.
+Gena:My.
+Blaz:We will the cadastral zones that will be included in a first registration import.
+Gena:Umm.
+Blaz:Will those cadastral zones already have data?
+Blaz:In the ACLIS system, before this process will happen? Or will they be empty?
+Tony:Yes, the there there might be some cadastral zones that already have some data, but but as I explained it to you, it will be like a this first registration will all the data coming from first registration will will replace the current data in the system will integrate what is in the system and then it will replace it.
+Delia:It'll overwrite the existing data.
+Tony:Override everything. So basically what it will do, it will be the same as the import function like when you import the cadastral zone.
+Tony:Ohh then you delete what it is in the system and import.
+Tony:The.
+Tony:Import the whatever is given and in the format that will be clarified during the the development phase. So first registration data will will replace with lower at the current data.
+Delia:OK, this this was the question. Thank you so.
+Delia:OK. So the facto they'll collect, I don't know who will collect all the relevant data and will prepare it for importing according to the format that they that will be specified.
+Tony:Yeah.
+Delia:Then this data will be imported.
+Delia:Then this data will be validated and if it will be needed, it will be ray imported.
+Delia:And when everything is OK, we'll have to in the system will have to be imported.
+Delia:As the spatial.
+Delia:Object as the legal object.
+Tony:Yes.
+Tony:No.
+Delia:OK. So then some some yes, sorry.
+Tony:So. So just just to to explain a little bit you uh, this is the requirement for importing first registration data, they they they are requiring also.
+Tony:To perform the first registration through ACLIS first match, first registration. I think I explain something to Mihael while here that there are a lot of activities during the first legislation like entering the data from different sources, validating. So it's a very complicated process. What we what I suggest that we are offering, we offer only the possibility that they import or enter the data format.
+Tony:The registration, which is the data for KARTELA and data for for the map. So let's say this is the same functionality of 1 property first agitation. But now this is a different layer which is not currently used in ACLIS for everyday transactions. But it is a layer which you work not through transactions and.
+Tony:And rice and so on. But you you work, you work, you create the map, you create the kartelas, and then you have a validation of this layer. And if it is OK and it if it is final, then it will be it will become the the the currently in ACLIS.
+Tony:Do you understand what I'm saying? Because the functionality that you that Delia the describe is only for importing first registration. You know normally they they outsource it when they give a contract to us for performing first registration we use our tools and we only use we only export the information in the format which is required required by SCA.
+Tony:Meanwhile, now they are requesting also the possibility that the company who is dying doing it or the the SCA itself. This should serve as a tool for performing mass mass first agitation.
+Mihael Kadunc:We would have to look at and don't know by heart how much of that is.
+Mihael Kadunc:In scope of ACLIS current specifications so.
+Mihael Kadunc:We'd have to see how much of that we really need to implement, but I do understand what you're saying.
+Mihael Kadunc:And I think it's that there's two things basically. One is that mass registration needs.
+Mihael Kadunc:Uh.
+Tony:Yeah.
+Mihael Kadunc:Inserting things into a draft layer that is separate from normal ACLIS operation.
+Tony:Yes.
+Mihael Kadunc:And the second thing is that mass registration would benefit from.
+Mihael Kadunc:Uh, having different entry forms than normal?
+Mihael Kadunc:ACLIS legal department because it would need.
+Mihael Kadunc:Something that directly maps to kartela fields.
+Mihael Kadunc:And then then the operators would.
+Mihael Kadunc:Insert data into.
+Mihael Kadunc:This.
+Mihael Kadunc:Different layout and then only when this mess registration is completed and when it gets imported into Atlas then this conversion from kartela data representation is.
+Mihael Kadunc:Uh performed and we come to the ACLIS legal data representation.
+Tony:Yeah, exactly. Yeah.
+Delia:Like OK.
+Mihael Kadunc:Billy, how much of that is supported by the scope of the Atlas technical specs?
+Delia:All of the important, but like there is generally not described the.
+Delia:Selective first registration. It's not like described anyhow that we need to support, but I edited.
+Delia:Because in my understanding, we will have to support it.
+Delia:But OK, I have a questions. They will import it and in my understanding system will create a.
+Delia:The.
+Delia:Objects with for example for it will create the object as spatial register and it will create the object in legal register.
+Delia:With the status draft.
+Tony:Yes.
+Delia:OK.
+Delia:Uh.
+Tony:But the the what the what the meow was saying correctly is that when you are going to work, for example with a map of cadastral zone which is under the first registration, you can you will have the possibility to work with all the parcels of that map. You you do not have to lock for example like you do normally.
+Tony:In every day is operations. You do not have to lock one parcel or surrounding parcels, but you can work and create a map which is which is which, which is done for. So you do operations for all the parcels and for all the features in in that map. And the same applies to to kartela you enter kartela you correct the kartela you.
+Tony:So so you work not in a transactional basis?
+Delia:OK so.
+Blaz:Tony does does same functionality in the same process.
+Blaz:Ohh cover also the update and improve.
+Blaz:Business process.
+Tony:I think the IT will be, yeah, it will be the same update and improve. It will be the same. So if you put the cadastral zone on under update and improve process, then you you can work with kartelas and and the map data the same way as in the first registration. Basically update and improve is a first registration with more input data that.
+Tony:The the normal must first agitation has because I didn't approve already has a kartela data and map data but they are in a state. Everything is dropped when one cadastral zone goes to update and improve process.
+Tony:So you just lost.
+Delia:How? How? Not everything. Wait.
+Delia:In update and improve, we will have active object for which will be created.
+Delia:New objects with the draft status.
+Tony:Yes, exactly. Yeah. So every every active object will will become draft.
+Tony:Uh, because they can be changed without the transaction, without a document.
+Tony:You understand you to in in the normal operational, yeah, they in a in a transaction in normal transaction for you to change the the the border of a property you need to have a A1 document.
+Tony:For update and improvement you do not need to have the this document, it will come for.
+Tony:Call Mom measurements in the field from working with our default and things like that, so you will have the possibility to to work with every parcel in the map and the without without having a documentation without having transactions. So basically it is first registration.
+Tony:From our point of view, from the system point of view.
+Delia:First registration has OK like it's selective the selective 1.
+Delia:But even in first registration they will include the documents pages for that first registration or no.
+Tony:So sorry, I.
+Delia:It will just it's OK.
+Delia:First registration. It is not that I want. I am pedestral engineer and I decide.
+Delia:OK, you will you include like.
+Delia:The as attributes of that of that object document. Why this object is appeared. So based on what you included that for example I am the owner of this parcel.
+Tony:The in the in the first registration you will have to provide the document in the update and improvement documents are already there so you don't have to provide the document you you have the documents but basically update and improvement will work with the map because the problem is the map which is not according to orthophoto or the the quality of the map is not so it's not so good so.
+Tony:So you have the documents you have kartela you have the map and you just need to to match them. So if the document says the that the the area of the kartela is 100 square meters you will you will make the map 100 square meters and put it in the correct position. This is what update and improvement is. Also there are other problems like properties without representation in the map.
+Tony:Or parcels without representation in the kartelas, so you have to create those properties. Also there are other like.
+Tony:Because they're good.
+Delia:So not. Wait, wait, wait. Like it's not that system will create user will create system will validate that this object doesn't have correct.
+Tony:Yes, exactly. Yeah. Yeah, so.
+Delia:So the factor means that we will have to import.
+Delia:And if something doesn't go through the if doesn't, something is not according to the business rules set.
+Delia:It should just not be important. User will have to correct everything and will have to import.
+Tony:Yeah, for update and improvement, I mean update and improvement, meaning that the data is already inactive. So we do not need to improve, we just change the status of data that we change it.
+Tony:Com.
+Tony:Uh live data to draft data for the entire cadastral zone so you can work with the data with some rules. Of course, you cannot delete documentation, you cannot delete kartella, you cannot.
+Tony:You know.
+Tony:For update and improvement.
+Tony:But uh, but the the the idea is the same. You in first registration you enter kartela you enter map in master processes not the one by one and you have the validation until you make the data real. So what I'm suggesting is that we do not have a we do not have a a parallel structure. We have the same structure that.
+Tony:The that we have in our place, but we change only the the status of Martin Kartela.
+Tony:In the.
+Delia:OK, I have a question. OK the user try to reimport the object where I created.
+Delia:And there's still draft, and somehow they have to export them in order to make them public, correct?
+Tony:To make them public.
+Delia:That to make the information to to show the information to public display.
+Tony:For funding.
+Tony:Yes, five days, yes.
+Delia:That look, this is what we registered that it's normal. Simple Citizen will have like don't remember how many days according to the above 45 to comment to. OK, so OK so the first thing that they all import this things.
+Delia:As we'll have to create the object in, I don't know in how in which format this will have to be exported from the from the ACLIS, correct? So they could make it public.
+Tony:Exporting now.
+Tony:Uh.
+Delia:Call Dale. Make call Dale. Make this draft objects.
+Tony:Yeah, yeah, yeah.
+Delia:Available to the to the public so they could.
+Tony:We have UH-2 phases for for first registration and it will be 2 phases for update and improvement. Also the first phase which is we do everything before pub before public display, meaning that the data is correct in ACLIS, meaning that there are no gaps, no problems with the map, no problems with kartela and there are several several controls checks that we will that we do prior to.
+Tony:Go to public display.
+Tony:Uh, when we go to public display, we just print out the the data according to the requirements for public display. So.
+Tony:You you will have print out form we we have to prepare print out forms for public display and the data is printed also there there will be need to export the map so they can they they use they can use a laptop or something so they can see the map and the kartela so it should be even the possibility to export it in some in some.
+Tony:Electronic way but.
+Tony:We we have money.
+Delia:OK, I if I understood correctly for kartelas you have to print the kartelas on paper.
+Delia:Somehow.
+Tony:Uh.
+Delia:To make them public.
+Tony:He not not not not the kartelas we have list.
+Delia:So there is there is the format. OK so.
+Tony:There, there are a lot of. There are some lists which, like the list of owners, the list of parcels, and she's like this that you we have the format so we can.
+Tony:Give it to you so you. So you you have to print out those forms.
+Gena:Or didn't prove that there is a new conversation and that explain what and that but.
+Gena:I don't know if you want details now about this.
+Delia:No, I'm. I'm asking, like, what would be the steps that I knew we need to support in the system.
+Delia:In in the factor, so we.
+Gena:Yes, I know. Then I have to. Uh. Huh.
+Delia:So OK, so some it's in a specific format. This will have to be exported from at least and I don't know where how cadastral take care, how to display it to the public. OK, it was displayed 45 days. Fabric comes with comments. I don't know how they will provide their comments. So that's it's outside of ACLIS they provide the comments.
+Delia:And that's true needs to process this comment.
+Delia:In my understanding.
+Tony:So yes.
+Tony:The the.
+Delia:So they will, they will again.
+Delia:Complete the they will again complete the same format that they will that they.
+Delia:Did this for the first time when they.
+Delia:When they.
+Delia:Introduced imported this data. That way I exported.
+Delia:Correct.
+Tony:No claims are are checked in the Office 1 by 1 and they they. If the claim is correct and the owner is provided the needed documents or there was an error from first edit station then the the change is is done to the to the to to kartela or to the map or to the linkage between them.
+Tony:They are processed 1 by 1.
+Delia:OK, so that in so the fact that now they will register will work with only one object in at least system.
+Tony:No, it will be the same. It will maybe with one, but it will be the same the the cadastral zone.
+Delia:In the same way, yeah, this is what I asked. Like what? They introduce the same info they want. They will. For example, I have one parcel. I'll check the parcel. Yes, it's a mistake. I'll introduce the same form only for that parcel. And dial the import it again.
+Tony:Not not import export. You will work in the system. Nothing you you should not.
+Tony:The you should not be.
+Delia:OK. So, OK, so OK, so first and already each from the import data will be the draft.
+Delia:The draft object, already after the public display, will be updated by the user manually 1 by 1, correct.
+Tony:Yes, 1 by 1 yes.
+Delia:In the in at least system OK.
+Tony:Actually system and still they are in draft form. So until everything is processed, every claim is processed. There will be a final check.
+Tony:Of the cadastral zone, and if it passes the all the checks that I needed to ensure the quality of the data, then this data becomes.
+Tony:The live in in Atlas.
+Tony:The everything changes from draft to to live so.
+Delia:OK, So what? OK. After. OK. So it means I as a user so have the possibility to update 1 by 1.
+Delia:Uh.
+Delia:And then they will activate.
+Delia:Although objects at once.
+Delia:Not I. I just made the changes also in draft as a user.
+Tony:Yes, changes remain draft. It will be until the until the all the all the, the entire cadastral zone. It is accepted so until that moment you cannot make any of the properties live so everything becomes live with a with an order with the acknowledge of quality of the data.
+Delia:OK. And some, OK.
+Delia:Assuming that there is functionality, everything was activated.
+Delia:And we'll have to be printed and.
+Delia:I met.
+Delia:A certificate of.
+Delia:Ownership certificate for.
+Tony:No.
+Delia:No in.
+Tony:No, they they are. No, they are requested by owners one by one. So you we are not obliged to to print it for the.
+Tony:Or the the entire zone discuss the last month.
+Delia:Uh, so, OK, so OK. So we will just activate everything.
+Tony:There's some other.
+Gena:Umm data improvement can be even from one person or it can be from SCA by itself for a grow for a group or for a cadastral zone for example, and.
+Gena:So it will all the zone or all the parcels that are under data improvement should be freeze until the this procedure will take over.
+Gena:And then after make the procedures of data improvement, they will go on public display and then it will finish the procedure.
+Gena:They don't go. There isn't need any mutual new certificate. Yes, maybe because if if it is change for example the area of the parcel, of course the the owner needs another certificate, not the old one. But it depends. But.
+Delia:No, the question was how? How how he will receive this certificate? Elton explained that person will apply to cadastral and there will be a service and they will need. This is in this.
+Gena:Yes, we'll apply for the new one, yes.
+Delia:OK, so with this we clarified.
+Gena:Yes, for the new one, for the new certificate. Yeah, yeah.
+Delia:Blaz do have a.
+Gena:He will look like.
+Blaz:Yeah, I have question. So when this process will happen, the updating of the map and kartelas as well, will this be a single person working on whole cadastral zone or will they work with somehow distributed among several users?
+Tony:Now.
+Gena:In defense and you know.
+Tony:Now I.
+Tony:The I I explained again, we have a very, very complicated system for for this only for the first registration issue. So we have roles we have.
+Tony:Because you know, for the maps, it should be an engineer working with them for the kartella should be 11 lawyer and for different thermal for different things that are data entry operators that are doing the their job. So they are different persons accessing accessing the different areas of.
+Tony:Of data.
+Blaz:But it's one cartographer updating map and it's one lawyer updating kartelas or.
+Tony:No.
+Blaz:No, it's multiple.
+Tony:That there might be a. Normally there might be more than one because you know they have this problem, especially for update and improvement. They have these problems that that they they cannot keep the the zone freeze for frozen for.
+Tony:For more than 21 days, so they have to finish everything. So there might be more than one person working with the.
+Tony:With so one person is working in uh in a specific area of the map and one and more than one working in different areas of the map.
+Gena:It depends. It depends how many parcel will be involved in daytime program. If there is one, just one.
+Blaz:Yeah, but, but.
+Gena:Applied, but the one citizen, for example, OK, we will work only one lawyer, one cartographer, but it it is all those on of course the one must be more depend from the number of the passes.
+Blaz:We're talking about mass.
+Blaz:Yeah.
+Tony:Yes.
+Gena:All the IT depends from the.
+Gena:Yeah.
+Tony:Yes, I I understand.
+Delia:It, yes, we we are talking about massive massive that improvement and massive first registration when it is 1 object it is simpler. It's a it's an application, it's assigned to a person and a person executed.
+Delia:OK.
+Tony:My answer stands for. It will be more than one and you know.
+Tony:What the we?
+Delia:It's it's more than one already when they OK, when they will do the import, they'll prepare the data outside at least like it will not be inside of at least.
+Delia:Uh.
+Tony:Yes.
+Tony:You.
+Delia:They all import it somehow. We'll have to create drafts and then with these drafts, we'll be working.
+Delia:Different persons, like one by one with Kartelas and with the physical object.
+Delia:OK.
+Tony:This.
+Delia:Uh, OK, what happens with the?
+Delia:Other applications cases that's where opened before started the massive first registration and the message.
+Delia:Uh data improvement.
+Tony:Uh, applications which are already.
+Tony:Uh, so so for first registration it is all the applications will be taken into consideration so.
+Tony:For first registration there are only like 300 cadastral zones remaining and they are they. They do not have so many registration applications, so they have only a few.
+Delia:Because I I just a question you when you say they will be taken to good duration, the person who will person who will import will prepare this data. The person will have to take it because there's what happens in the system. We already have an application opened.
+Tony:Again, English system for first registration you should have.
+Tony:Those cadastral zones are are not in the system now in the in in abset, so or they are only partial. The only parts of kartela or so.
+Delia:Yes, I'm talking about the fact that there are partially things and and and by the chance there is, for example, a parcel, my parcel is registered and I have applied for a transaction to register a sale contract and the in the meantime before my application is processed.
+Delia:He's decided to make the mess. First registration for that zone. What happens with my application?
+Tony:They have to wait to finish the first edit station.
+Delia:So it will have to be somehow put on pending.
+Tony:Built in pending so.
+Tony:So he everything becomes draft and they they they have to work with what they have some.
+Delia:OK. And the same goes action for.
+Delia:For massive data improvement.
+Tony:Yeah.
+Delia:OK, so most process is clear. We'll have to check what what they required and technical specification because for sure the process is not like they've described.
+Delia:Uh.
+Blaz:Functionality wise, not much is seen.
+Delia:Yeah, from the point of your functionality there is.
+Delia:Yeah, my almost anything.
+Delia:Uh.
+Delia:OK. And I have a question regarding this legalization of buildings without the parameter of construction.
+Delia:And OK, so now I watch your understand later like this that.
+Delia:First, it will go to special register.
+Delia:After all, the after all the analysis and after everything is done, the person the cadastral decides that yes, we need, we can and we should legalize this building. They will update it in.
+Delia:And in special.
+Delia:And then it will go to registration.
+Delia:And it can be like either it will be selective search registration or it will be the editing.
+Delia:Often object.
+Delia:If the if the if we talk about buildings that were extended.
+Delia:And my question is that I don't understand. I saw that cadastral. There's nothing about this intender at the moment, cadastral somehow registers this.
+Delia:Building permit this legalization permit carcass register. They have that we don't need to support this and we will not support this if I understand how they will issue this legalization permit. I understand that I will use it as a.
+Delia:So comment basis for changing?
+Delia:Of the area in legal but.
+Delia:Cadastral has at the moment other registers where they keep this information. Do I understand correctly?
+Tony:Yeah. Now those used to be.
+Tony:The two different institutions, the IT was ALUIZNI, which was for in charge for giving the those those certificates for buildings without permit and state adapter. The problem that we are facing now is that.
+Tony:The the they have been working with different maps with different base maps and for aluise me everyone has applied for having this certificate.
+Tony:Uh, and everything is based in order photo, so they are more correct than cadastral maps.
+Tony:So they are two different processes. The issuance of this document, which is the real, the real right, is the issues of the the issuing of this document. And then this document has to be registered, which is currently it is done through a transaction. So you it's a new first registration of a property which is which can be a new as you said as you said, a new building or.
+Tony:The change of an existing one so.
+Delia:But one one time I will update the kartela another time I will create a cartella.
+Tony:Exactly because sometimes, for example, if you if you have the lamb under the.
+Tony:Under this building, if you have it in as your own, you your own it you own the land you kindly. You have the kartela for that land, which says that only the area of that land after you get the the certificate for the illegal building you you will at the at the same kartela you will have the the building area also and you have in the map you have to design the building.
+Tony:Which is the most common, the most common action that you do now?
+Delia:OK so.
+Tony:Otherwise.
+Tony:Yeah, yeah.
+Delia:A question, OK, in this case, in this case in legal register, it means that they will. I will have to.
+Delia:Register.
+Delia:And a transaction.
+Delia:For the parcel and they'll have to create.
+Delia:An object.
+Delia:For the building.
+Tony:Yes.
+Delia:OK. But they if I understood correctly, they do this, they'll do this in different cases because for parcels they have to provide some other documents related to the with the owner of the parcel. If there is a compensation of there is not a compensation, OK. So the disaster there will be 2 cases that transaction for the parcels and 1st Selective Service registration for the building.
+Tony:Yes.
+Tony:Uh.
+Delia:Ah, OK, so I'm understanding this correct. OK.
+Tony:Yeah.
+Tony:So. So you, you you have to merge.
+Tony:The this in a in a kartela. So those two transactions, maybe the parcel is correctly registered in cadaster, so you do not have to do anything about the parcel, but you have to add to the kartella you have to add.
+Tony:The building.
+Delia:OK. So yeah, they will, they will update only the be a unit for the building and we'll create the right for that building.
+Tony:Yes, which is the same as the part.
+Delia:OK. So OK, I was just like confused about this register of building of.
+Delia:They just start off building permits, then they have a register of legalization permit. Then they have a register for carcass.
+Delia:OK, it's not our.
+Delia:Outside.
+Tony:Yeah, it is. Yeah, it is.
+Tony:Uh for for illegal buildings?
+Tony:Of we have to to provide something to them because they don't have anything now for illegal building, so they have a map. They have the all these applications so they have to register the map and the application and they they have to deal with that with those and they have to deal with those according to the business case that we already have in the terms of references.
+Delia:Which one?
+Tony:For for ALUIZNI, uh, illegal building.
+Gena:Yes, that is that.
+Delia:Said that, support that self support this process. That's why I'm asking who will where will be issued this, for example, this legalization permit.
+Delia:It will be issued in at least they want it to be issued in at least or they'll issue outside of at least, and I'll just attach this document.
+Delia:To the right.
+Tony:No, no, that's as far as I understood they they want to, they want us to to manage this also.
+Delia:Yeah, but they have. OK, so it's OK. So we will have to discuss this as a.
+Delia:Separately.
+Gena:In specification that I will describe anything about functionality, it's only they have put as a business process of legalization. They have put the conversation as it is, copy paste to the.
+Gena:Yeah.
+Delia:Yeah, I understand. But legislations are not requirement for the system. It's a requirement for the person who register that when he registers the right he needs to attach a document and the document can be shall be illegalization permit. It doesn't mean that I have to create it in the system and I have somehow to ensure.
+Gena:Umm.
+Tony:Yeah, they.
+Tony:Yes, this is.
+Delia:This is why I like the problem with the legislation.
+Tony:Yeah, this is from cadastral point of view from for this translator. Transitory process point of view. We have to to we have to deal with that also.
+Tony:We have to import what they have and we have to to deal with those processes.
+Tony:I'm here, love.
+Gena:No, no, you didn't understand me, Delia. I I was explained. And in technical specification there isn't any functionality of the system about legalization.
+Gena:Long.
+Gena:Well, it's, it's nothing explaining.
+Gena:Yes.
+Delia:Yeah. Yeah, I understood. Yeah. Yeah. Just it's just this. This is from my account, the misunderstandings and probably so we will have the same discussion with rezar. Like if we need to support as you'll see like when I extracted when I extracted the I I go I for legal register I won't requirements one by one and I have to issue in at least only curtail US certificates and extract and I have doubt and I'm not sure like if this is true that in.
+Delia:Albania, you have extras that are valid 2 month.
+Delia:He expressed it seems like this is the.
+Delia:The but I have such a.
+Gena:No, no, no, it's not, it's not. Yes, there are some business means there. There are some business means.
+Delia:I have such a requirement, so cadastru has to say that they withdraw on this requirement because.
+Gena:Yes, exactly.
+Delia:Yeah, this is the biggest problem.
+Gena:It needs to be changed or update. Yes, I saw evil, some business rules or some requirements needs to be update or to review from my point of view.
+Delia:And.
+Gena:Uh, because we are not the same or they are not very.
+Gena:30.
+Gena:I want to say alright.
+Delia:But that's through, yes, but the problem is that.
+Delia:I I read that legislation I when I was writing this and in the registration registration is a very high level and these details are not there like.
+Gena:Long.
+Delia:So they'll have to provide.
+Gena:Yes.
+Gena:Exactly.
+Delia:In food and to work together with us, if to come to a common because I cannot withdraw, withdraw the requirement because we decided that this is it is wrong or.
+Gena:Yes, yes.
+Delia:OK, so with this.
+Gena:Yes, but we have to point out to some points that we know that are not pay for example and then they.
+Delia:Who? The cadastral. Yeah, I I that's why I asked. I wanted to understand the process. We understand it.
+Delia:But I'll send. I'll send the cadastru.
+Delia:Will have to come with the initiative.
+Gena:The song.
+Delia:To say that, look, guys, we need this, this everything is correct. But additionally we need this and this and that the the requirement.
+Delia:For me, you are more or less is clear what they what would be, but the problem is that they are not anywhere specified at the moment.
+Gena:Yeah.
+Delia:OK, with this, we clarified.
+Tony:Is that these are the transitory processes which are requested everywhere.
+Tony:Hi.
+Delia:Where were they? Are not. When you say that they're requested everywhere there, nowhere in the technical drafting specifications. They're just mentioned in the.
+Delia:As you a lot and that's it.
+Tony:Yes, yes and.
+Delia:And as I explained I I read legalization from the.
+Delia:I read that organization described in the technical draft specifications. There are two chapters that.
+Tony:Yeah.
+Gena:As business process, yes.
+Tony:Yes.
+Delia:Are different, but they describe the same process and again the problem is that there is not even mentioned that there should be a register for.
+Delia:And.
+Delia:Legalization permit that they'll shall be registered for building permit and stuff that I mentioned earlier that I collected from the legislation.
+Tony:But.
+Tony:The what?
+Gena:Yes, as I mentioned again, legalization is described only as a business process and it's not very.
+Delia:Like.
+Gena:Uh clear about transitioning? Yeah.
+Delia:You even not even every very accurate even there.
+Gena:Yes, it's not, it's not.
+Delia:So yeah.
+Tony:We can.
+Tony:Yeah, sorry. Yeah.
+Gena:And I think because pacification has a lot of missing, OK, yes, yes, OK, OK, OK.
+Tony:Yeah, we have a ALUIZNI module.
+Delia:Yes, but you.
+Tony:In technical specifications.
+Delia:Yeah. And when you're ready it, there is nothing that.
+Delia:There would require a functionality from us.
+Tony:And why they have inserted into the technical specifications for just for leisure reading?
+Delia:This is this. This is a question for for cadastre.
+Tony:No, this is not a question for cadastre. This is something that we have to provide.
+Tony:And they are expecting.
+Delia:I can't. I can't, Tony, I'm explaining to you I can provide. They'll be able to register the new building editors and selective and additives in the in selective first stage. Just station, they'll be able to register it.
+Delia:And they'll be able to create it in the spatial register.
+Tony:You see this? This is not the ALUIZNI model. This is the the the basic SCA module. So this is a. When you register a new building, a building come from Eloise, it is just you take the output of the ALUIZNI module and you register it.
+Tony:So that you have to, we have to produce the ALUIZNI module and the and also they are requesting that the the.
+Delia:My question my question is how it will differ from the first registration from the Illini model and from not from the OLISI model.
+Tony:See, there's this. Yes, it is something very different. I really module is you have to deal with the process.
+Tony:Uh, the process for providing the for providing this certificate that you're building now is is not illegal anymore. It is legal.
+Tony:It is something different. It's nothing related to the cadaster.
+Delia:There's.
+Tony:You understand?
+Delia:If you if when I read what they wrote, there is a, there is a business process.
+Delia:That uh, that writes in the following way that after after the after they will make the changes in the spatial object. I don't know where it's made it. Let's assume it for now that it will be in there in spatial. After they do that change it goes to the legal Department for registration.
+Tony:The.
+Delia:That's it.
+Tony:No, no, it's.
+Tony:Yeah, here there is the explanation of.
+Delia:And that.
+Tony:Of how they did.
+Tony:Oh a half how they deal with each declaration, which becomes an application.
+Tony:You, you. You see, you see the ALUIZNI modem.
+Shefqet Lulja:The part that is very detailed because they put the whole conversation of the ALUIZNI there at the tour.
+Tony:He listen.
+Tony:Those.
+Delia:Yeah, I understand this, but if you look at the requirement that they put further system, it's requirement that they have to have the possibility to search through the cages. It's everything related to the cages. So it's assumed that the other functionalities that they have for other.
+Delia:Object so covers that this this.
+Delia:The.
+Delia:A.
+Delia:Business processes in in the fact that still be the same, they'll create the object, then they will create the right and the basis for the creation.
+Tony:No, no, no, no. You got it, you got it wrong. It's it's not the case for the guidance that this is the case for, for, for the.
+Tony:For for.
+Shefqet Lulja:Please translate.
+Tony:For for this process for creating the.
+Tony:For creating this document for, for issuing the certificate of legalization.
+Delia:It's not certificated to permit and.
+Delia:Yes, but there is no no requirement for this. This is the problem.
+Tony:Sure.
+Delia:And and and this permit that you are telling people the legalization.
+Tony:Yes, this is what you are.
+Delia:It's not when it it is not issued when I register this object, it is issued before and it it goes to the the legal department already with this permit.
+Tony:Sorry, sorry, sorry. Delia, we are, uh require. Uh, I'm looking at the page number 127 of the specification.
+Delia:2nd for that specification.
+Tony:Taking those that specification 1127.
+Tony:Are you there yet?
+Delia:No, because I need to open the document.
+Tony:Well.
+Tony:It's not.
+Tony:What's wrong with you?
+Delia:127 yeah.
+Tony:Yeah, here we have the requirements.
+Tony:This one.
+Delia:Procedures that requirement yes system shall allow creating a cage during the service execution business process flow.
+Delia:System should.
+Tony:Yes, and everything here.
+Tony:Yeah, just just the just the first comment, everything here is not related to case management of of ACLIS, but for the cadastral it is something totally different. It is the case for ALUIZNI module.
+Tony:You.
+Delia:OK. But it will be created in case management.
+Tony:I I don't know how we are going to provide it, but case management, our case management deals with acting ACLIS data which is the data for which is live for kartela and maps, this will have a different set of data. This is the set of data for declarations.
+Tony:Which they they currently they have in, you know they they they do not have a system but they have a A they have them in. In digital they have a map and the declaration data so they have to work with this data and to to to.
+Tony:To process these applications, this declaration to process according to all the rules which are for the legalization purpose.
+Tony:So this module required is required to to let them work with the with the legalization process, not with cadastral data.
+Tony:You understand?
+Delia:I'm looking at this. What they have, OK.
+Delia:With legalization data.
+Tony:Yes, this is not the process for registering this.
+Tony:The the this permit this is the process.
+Delia:Yes, but I OK I have a have this. OK, so I have a I read the process and for example in legal register you would understand what I'm trying to say. There is clearly written that there should be the possibility to create an object that will have to be linked to a special object that there should be the possibility to create the right that that when I create the right should be a possibility. So I could associate it to the right without transferred. There's a clear requirement that I have to create support creating of.
+Delia:Restriction here is just listen to the log creating a case during the service execution business process flow.
+Delia:Just a must provide the means of calculating fees based on the application data system must integrate this payment, get away for allowing online payment.
+Tony:You know to see like, for example Delia, you know what this fees are for example, these are not fees for the applications this these are the fees the owner must pay for.
+Tony:For you know, for state parcel or for owner parcel that it's totally different thing.
+Tony:So.
+Delia:Yeah, but it it's like it's like it will be a case for in case management.
+Delia:Polarization. There should be the possibility to issue an invoice.
+Tony:Yes.
+Delia:So it's it's the fact that it will be case management, that's why I'm. That's why I'm trying to explain.
+Tony:No.
+Delia:We will use case management. Why not?
+Tony:OK.
+Tony:Ohh I said now I mean.
+Tony:Uh, you. You have to understand the process, Delia. It's a. This is a. This is totally this. This is one of those processes. They they said like first exist. They must first exist. Nor which are this will not exist after.
+Tony:The I after everything is like the lie. So this is a transitory process. This is a completely different from the case management in in August, so this is a new.
+Tony:Uh.
+Tony:You said another set of data and what our government is now trying to do is that until now there are two different processes should declare your illegal building. You get the the permit or certificate and then you go and register this. What they are trying to do is that this is registered automatically.
+Tony:This this is the idea. So you have to link the current data in the system they have and you have to create the right of the data the correct right in in August.
+Tony:This is the idea and this is not always very simple because of the data in ACLIS is not correct, it is.
+Tony:The they they they lack good positioning, especially for the maps, and there must be some transformation of the parcel in ALUIZNI module it can. It needs to be transformed shifted. We explained the while we were there so.
+Tony:You are.
+Delia:OK, so they will use and say OK, so they'll use the same functionality that they have in the spatial register. It will be on another layer.
+Tony:Uh. Maybe. If if it is possible we use the same the same the same.
+Tony:Ohh spatial register the same with different layers maybe.
+Delia:No, I'm saying I'm just saying that there is no other functionality required.
+Delia:We have. I have just the information that first of all there there there comes an application. They'll go on the field, they will make photos. And if you look at the other process that it is described, legalization of buildings, everything is outside, outside, at least in the process that it is described there, they'll go. They'll make, they'll make photos.
+Delia:And then they will come. They will somehow. Let's assume they they will introduce these photos and other information in at least. And the chief of the zone will decide. Yes, this buildings goes to legalization. This building doesn't go to legalization. If it does go, they reject the application. If they inform the person, if it goes, they update the.
+Delia:They update the object on in spatial register. They they change the.
+Delia:The plan of the of the building and if it is needed of the parcel.
+Tony:No, they they, they. So if it goes they issue the this permit. So this is the end of module.
+Delia:Way way it is required that this permit will be used. Legalization permit will be issued in at least.
+Tony:I don't know. I have to go through the through through the.
+Delia:This is the problem, this is this is the problem that I'm talking about. Yes, we can. We can sit together. I I told you that I read in the legislation about this.
+Delia:The about the fact that they issued this legalization that this is the problem, that there is no where written, that I shall support this.
+Delia:It's just, it's just, it's just, it's just said that then they'll still goes to the legal department and they'll have to.
+Delia:Yeah, there, there. And they'll use this legalization permit as the basis for registration of that building and this is supported already in legal.
+Tony:Yes, this is supported, but again I'm I'm trying to uh to emphasize the importance of sadness module.
+Delia:I understand, I understand the importance and.
+Tony:This is the last time you sitting on this is because this is one of our strongest arguments for athletes because the current system does not have any, any possibility to work with the ALUIZNI module. ALUIZNI module is just a map somewhere and some data in an access database right now, so for sure we need to have the salaries in module with all the functionalities required.
+Blaz:But.
+Delia:That collateral.
+Delia:Yes, boss.
+Blaz:But then maybe this should be, uh, subject to.
+Blaz:A addition to the contract or something because yeah.
+Blaz:This functionality is not required from ACLIS. From this store specifications.
+Blaz:Yeah, we can identify the functionality and make a proposal, but.
+Tony:I don't know about the. To my understanding it is required. Again I can I can say that.
+Delia:Doesn't I agree? Look, show me the functionality where I have to show me the function. If you saw me the functionality.
+Delia:That it is required.
+Delia:Because I'm I read this, I read the legislation, I read this.
+Delia:The requirements not not only once I read, I read several times because there I told you two chapters where where you described this process and if you look at the chapter that has the business model, everything is outside ACLIS.
+Tony:OK. In terms of references?
+Blaz:They are you referring to the diagram at page 70.
+Blaz:No2.
+Delia:Ohh does this look good to say something? I don't remember where it.
+Tony:You can't.
+Tony:But.
+Delia:We're not against of doing this, but the problem is that.
+Tony:OK, we we can we can make a case, but we have to do it.
+Tony:Look in a in terms of references, we have expected deliverables. It's additional models under legal register are created to include the data resulted by the implementation of transitory processes.
+Tony:So.
+Tony:We have this.
+Tony:The requested in transitory processes. We have those requested.
+Tony:So we can.
+Delia:Where it says the 30 process in the Tor where where there is nothing like I'm I'm I'm explaining that there is nothing from the app if you go up you who is sharing.
+Tony:I am a page 12 in. In terms of references #3.
+Delia:Terms of reference and the cheap.
+Delia:But.
+Delia:You need to and.
+Delia:The terms of reference have these terms of reference as technical specifications, and in these technical specifications there is not mentioned that I have to issue.
+Delia:Legalization permits.
+Tony:OK.
+Delia:I.
+Tony:This is the detail, but you have to. OK I. Are we going to deal with the legalization data and doing this?
+Delia:And we have look, I I proposed the following. So we would not.
+Delia:Why are they mentioned? Something is very vague. They're described, and from what it described there, I already put the use cases for legal register that will support the registration after will be issued that legalization permit and all the things.
+Delia:Umm.
+Delia:I think that once we finish with this output 1.
+Delia:Well, what do you you can prepare?
+Delia:In the same format as we did it for the other use cases.
+Delia:We can go together and we can then discuss with cadastral what is.
+Delia:What can be done and what is covered by this contract? What is not covered by this contract and they will decide?
+Gena:This is what we are working with Marianna because you know about this, the all the procedures that are not described or.
+Gena:Have the very few.
+Gena:Details or even for the new business process that are not described there are not, including in the in the specifications.
+Delia:You know, yeah, but.
+Gena:This is what Marianna is helping the SCA and I am helping Marianna in this process in.
+Delia:But yes, but try to keep in mind, as we suggested, to exclude everything without the which does not refer to functionality for example.
+Delia:You already understood like what what we're trying to say.
+Gena:Yes, yes, yes, yes, yes, I am.
+Delia:Yeah, yeah, I'm not. We're not against. It's just. I want cadastre to understand that we have some requirements based on these requirements that we prepare the use cases we prepared the the acceptance criteria. We understand that something is missing and the this is, This is why.
+Gena:Well.
+Delia:The first step was let's clarify what we have.
+Gena:Or.
+Delia:And then let's add new things because.
+Delia:Yeah. OK. So yeah, so that's that's this is my concern.
+Delia:This is my concern.
+Gena:Now we all understand what we have because all we have leads the specification. If you that take and SCA and everybody else now we have to we all understand what we yes, we know now what we have.
+Gena:Umm.
+Delia:Well, we will. OK. So I'm just telling to to that we will support, but we'll have to decide what we support under under this contract and what we support.
+Gena:Of.
+Gena:Yes.
+Delia:Under this contract, with additional discussions with the EU and cadastre.
+Gena:Yes. Well, now we know that our missing some functionalities, some details, some process business processes and things like that. Now Marianna is supporting SCA and I'm working with Marianna in this type in order to in describing new business process that needs to be added and things like that and then ACA will be provide officially maybe I don't know because I'm not officially informed about this.
+Gena:And they later on we present and it must be the object of the additional of contract, I don't know.
+Gena:But we know then yes, yes.
+Delia:There they will decide. It's it's not OK. Yeah, I just said I'm trying to emphasize that everything what we try to cover everything.
+Gena:Yeah.
+Delia:Even what is not required that even included those things so they could put us to say clearly that this is not what we need, remove this so we could have a clear picture what we need support and what we need. Don't need to support. OK with this we clarified the first. Regis, thank you for the explanation for the first registration.
+Delia:And for the others explanations.
+Delia:Then we need to. I will.
+Delia:I don't. We were discussing yesterday that.
+Delia:At the moment, for us more or less everything is clear. The requirements that they have.
+Delia:We don't need at the moment and workshop discuss what was written and I'll send to rezar tomorrow. This week I'll send to to resolve the draft technical specifications that we have now.
+Delia:And so they could look at them.
+Tony:Look.
+Delia:Yeah. So they.
+Tony:Delia, I must insist in this because I know that it will cause a lot of problems and or ALUIZNI module we have to.
+Tony:Maybe we we do not change everything because it is already in the in the terms of in the technical specifications and terms of references, because I'm now looking at the business process here and it is described in detail.
+Tony:You you can see in Page 60 of draft technical specifications that it is described in Italian.
+Gena:Yeah. The Delia meeting functionality point of view, not in this, in this prediction of the processes and what to do and what.
+Gena:I as I understand.
+Tony:Just functionalities that they need to manage the processes for.
+Gena:If it has to make the difference between functionality and the other descriptions that we discussed before.
+Gena:As I understand now.
+Gena:Because.
+Gena:OK.
+Tony:Delia.
+Delia:All, they all.
+Gena:And.
+Delia:At what?
+Tony:Delia, can you have, can you have a look? And you look with me in Page 16.
+Gena:Trying to.
+Delia:Keeps him.
+Delia:Yes, I'm looking.
+Tony:Can you see how how much detailed is the process?
+Delia:Do you see that there is everywhere a little man. It means that it is outside the system.
+Tony:No, it's not outside. This is. This is what it is required.
+Delia:Yes, it is required to have A to have a case. Yes, I understand that they'll have a case following evening and I'm looking to create a case. Yes, they'll create a case.
+Delia:And reconcile with previous applications. They will check through the they will have the option to look through the previous every application assigned to the head. Yes, they have this functionality.
+Delia:Assigned to relevant cut cartographer, yes, we will assign it to the relevant cartographer.
+Delia:Then see there is a hand makes appointment with the applicant measures away construction parts of in fields outside storing database. OK, they what they'll produce. They'll put in the database.
+Delia:Person already assesses parcel rule. Yes, personal assess the person rules. It is outside at least.
+Delia:He's got tension required. Personal decide. Yes, it is. No, it is not. If it is required in that description after that the diagram is written that they that he will create a a correction of errors. Case. Yes, he'll be able to create an error correction case.
+Delia:Check all buildings regulation again. The person takes all the all the building regulations.
+Tony:Mm-hmm.
+Delia:And annotate the relevant kartela it will be a correction of error case.
+Delia:For legal register and he will make changes to the object in legal in kartela.
+Delia:In the in the case correction of errors.
+Delia:Notify applicant of the value of the building. As I mentioned that we need to support the function.
+Delia:The the I don't know how they will send it. We have to decide this with them because if I understood correctly, the application will come.
+Delia:A. The Who? Who who is creating the application is the ALUIZNI department, not the person assigned you via elbonia. But if it is Vial Bania, how we send? How we will send all the documents to the Albania. In this way, we will send this invoice. The end.
+Delia:See.
+Tony:Yeah.
+Delia:There is not much details. There is no way of written that I have to support for as I explained that I have to support the issues of legalization permit, for example, neither from the text, neither from this diagram.
+Tony:You have it in the diagram. Register just the building permit of legalization must be signed by Chief of Legalization.
+Delia:Where? Wait.
+Tony:And they're right.
+Tony:And what I'm saying is that this is a total.
+Tony:Total new prop.
+Delia:But wait, once again, where is this building?
+Delia:With the.
+Tony:At uh in there, right, right, bottom right.
+Delia:Register register just rebuilding register doesn't mean issuance. These are two different things.
+Delia:Register means that an in this case see it's the man registers and it's not in at least.
+Delia:In at least.
+Tony:OK.
+Gena:Well, you looking at the figure at the table and the table.
+Tony:I I I guess my case.
+Delia:It I'm not against it, just the process is very, very specific here.
+Tony:I'm I'm telling the day they need to to have a a special module on the related to Aluise name.
+Tony:To.
+Delia:Yeah. Like I've, yes, after we discussed this.
+Delia:You tell me this, but that I need to that we will need that it. It will be nice or it will be very super nice if who is support this issuance of this.
+Delia:The permit of legalization, but unfortunately from when you read the requirement, it's not clear that we need to do this. That's why maybe how Gena suggested that and I suggested.
+Delia:If there will be a clear process described, not what we have now.
+Delia:And a decision quoted from the legislation and a process that is outside of the system. Basically, we can go together through it and.
+Delia:Would we try to understand either we will have another?
+Delia:Type of case that will need to support this.
+Delia:Or if there's another case that where we can integrate this process, this is what I'm trying to say that at the moment, unfortunately.
+Tony:What the OK this this is how I understand it. If it is not the case, I've read the note #3 in terms of references that we we need to we should develop additional cases.
+Tony:To reflect the provisions and work flow required by the new legislation for the completion of transitory.
+Tony:Well done.
+Delia:We need to prepare 10% of use cases and believe me from my, from my, from my understanding now 10% of use cases we will have to discuss with cadastral together, what will be included in this 10% of use cases, because there is not only.
+Delia:Legalization missing there is also missing, for example, integration with single sign on. There is also missing other things and the.
+Gena:Yes.
+Tony:See see. See the same.
+Delia:Yeah, cadastral have to work closely with us. So we could identify these things.
+Tony:OK. Just just trying to to explain that single sign on and ALUIZNI module are two two very different things for cadastre. No one in cadastre understand what the single sign on is and everyone understand what I Louise needs.
+Tony:This is what I'm saying.
+Delia:Yeah. OK. So we will decide. We. Yeah, we will decide that there are lots of be introduced in this 10%.
+Delia:And we will see how.
+Gena:We are talking about an agreement that is described less or full. It is described in the specification, but about other transitory problem. Sorry process.
+Gena:They are not mention.
+Gena:Even in his application, it's another case for this.
+Gena:Uh, SCA, for example, or I don't know who.
+Gena:But as I mentioned, maybe with Marianna that we are working on, we will build other business processes of other, but if they will be included or not.
+Delia:Even even this.
+Gena:During this phase or after.
+Delia:Yes, it's a big have to discuss.
+Delia:Yeah, yes. But you saw how they are described.
+Gena:Because Louise me is a Louise. Me is described in specification, good or not good or bad, good or bad, with missing elements or not it is it is is the request in the specification, but there are.
+Delia:Yes, but you saw how it is, but you saw how this is requested. I just explain how this is requested. You create a case.
+Gena:Yes, I understand. Yes, I understand very well. It is a lot of words, a lot of words, but not fractured and not with functionality as you.
+Gena:Uh, as you asked? Yes, I agree with you. It's not good enough in the point of view of the system, but they have put a lot of things there and legalization. But there are other business processes that are not mentioned at all.
+Gena:That SCA is asking for, or maybe they will asking for you know.
+Delia:Yes, OK. I just wanted to explain. So the position, our position is not that we will we do not want to deal with these things.
+Gena:Yeah.
+Delia:We want we will deal but.
+Gena:Clarify.
+Delia:But we need this, we need to it's step by step as I was trying to to tell to Marianna and to everybody step by step. This is what we have. This is in the tender.
+Gena:Ohh.
+Delia:The the rest will have to be discussed and established a.
+Gena:Yes, yes, stand alone.
+Gena:Yes.
+Delia:Functionality from the point of view of what we need to implement.
+Gena:Yes. Now I understand your point of view also.
+Tony:I am saying Delia.
+Gena:But somebody has.
+Tony:Delia.
+Delia:Yes, Tonya.
+Gena:Somebody have to point out what what, what is missing and what what? No, what is what is.
+Gena:Yes.
+Tony:What trying to say is that if we do not include the this module, I don't know how much they are going to read for from what we are going to provide. But if we do not include this, I'm afraid that the SCA first will not accept the those specifications.
+Delia:I wait. OK, like.
+Tony:Because.
+Delia:I, from the point of view what was requested.
+Tony:Wait that start I.
+Tony:Ohh does not speak.
+Tony:Because they.
+Delia:So yeah, if you, I cannot, I cannot you discuss the result you discussed, Marianna, I only my guide. My guidance is the only.
+Delia:The technical draft specifications.
+Tony:Yes.
+Delia:You asked Rezar to provide for us access to the current database, provide to us information what was changed, what needs to be more detailed.
+Tony:No. Well, what I was trying to say is that they have said more than one time that they they need the specifications for the entire for, for the entire structure or for the for all the modules that.
+Delia:OK, welcome.
+Tony:A thing that they will cover all the their words because they they are going to present it to action. They do not want to do it in a later time. This is what I'm saying.
+Delia:We, Alton, I understand this, but they cut from us from time. Yahoo catches us.
+Delia:Uh.
+Delia:I I'm almost one month.
+Delia:Next this one. What I saw focus on what is written in the technical specifications or ISIL. Focus on what rezar wants.
+Gena:That the school.
+Tony:In technical specification is written that they need and ALUIZNI module with all the.
+Delia:Yes, they are. What is I cover. I covered everything. What is written in the technical specifications I just showed you that. What is it? And there is not what they want. This is the problem. And cadastral when they'll provide comments.
+Delia:They will, of course they will provide comments. They'll provide suggestion which we will discuss.
+Delia:And we will take into account, but I cannot do this until 15th of April.
+Tony:OK.
+Delia:This is the problem because.
+Gena:OK. But we can, Delia, we can just mention is modules for example or just as as we are aware about this, but not to develop or not to not to go through the details.
+Gena:Umm.
+Delia:Yes, that's why that's why I prepared the ticket in which I asked all the, including us and including my team, including your team to add things that we we know that there are missing.
+Gena:Yeah.
+Gena:Yes.
+Gena:Yes.
+Delia:But they are not covered in the technical specifications, so why could present this to cadastral and this list till now is updated only by me. Please update the list. I understand what you're trying to say and not again.
+Delia:That.
+Gena:Umm.
+Delia:To do this, it's just there's there are constraints.
+Delia:And the fact that I will go to and I'll go and I'll to say I'll I will say to I I still don't understand why you look at cut it that you explained because against wells cadastral to to to to give us three months that we we were we had them according to the contract they cut it we agreed with this.
+Gena:Umm.
+Delia:And the.
+Tony:No, we we discussed the with the Peter that he said that if they will be needed they can extend the.
+Tony:The.
+Delia:Yes, they can extend, but at the moment take into account how it is described. I would prefer to to I would I would prefer.
+Delia:Uh to do it in the following way to cover, as I mentioned, let's cover what is in technical draft specifications we mentioned. Please update that list again if you see that something is missing, please update to that list so we could say to cadastral like look we identified this is missing from your current technical specifications and if Marianna and you are working on that document, probably cadastral will submit it as a comment.
+Delia:And we will include it.
+Gena:Umm.
+Delia:Additionally, after we submit officials the output, while it does like you saw that even how the tender is constructed, it's constructed in the.
+Delia:Specifications are.
+Delia:In output 1 specifications 10% are in output 2 and there is output 7 with the other specifications.
+Gena:Yes, but when I put some comments for you, for example about the new things to say, No, no, it's not in the specification. It's not in there.
+Gena:Yeah.
+Delia:No, don't put it in that ticket because you put it in the wrong ticket.
+Gena:OK. And then?
+Delia:That's why I'm telling like this ticket that I opened refers only to what I wrote. If I wrote something wrong, please correct me.
+Gena:Oh, so the issue. You mean tickets? You mean the issue number?
+Delia:Yes, yes. And there is another issue which I created is in personally for this kind of stuff that we know that there are missing, but we need them. So we could because I'm.
+Gena:Issue 18. OK, OK. Please transcendental, please. In process. Fine tuning this you mean?
+Delia:Yes.
+Gena:Thank you. But it's not in our fault one.
+Delia:Yes.
+Gena:Or.
+Gena:Umm.
+Gena:Yes.
+Delia:This is not because they are not described in text. This is why I will always trying to explain what why we are working with the issues.
+Delia:So this is the.
+Gena:OK, OK, now that we are discussing, we are more clear with each other. We have a better understanding of.
+Gena:It's all done.
+Delia:There we discussed itself before, OK, we just.
+Gena:It's better to discuss sometimes, because sometimes even the.
+Gena:Uh, until we.
+Delia:When I opened Gena when I opened.
+Delia:When?
+Gena:Until we get the understanding of each other, how we work, how we explain things, because we have different explaining or different describing idea thing.
+Delia:I just I when I opened this ticket I described so it to your team.
+Gena:We have to communicate more together to understand each other, I think.
+Delia:I described this yes, if you have. I just I when I opened the ticket, I explained to everyone who was present at that meeting. What is the purpose of the ticket and the ICT? Everybody, if something is not clear, please ask me.
+Gena:Ah.
+Delia:Even before this meeting, just write me. Delia could we are would like to discuss with you to clarify these things.
+Gena:OK, OK.
+Gena:No.
+Delia:OK, so OK, so I will share, I'll share this week with the rezar, the draft that we have now because we promised to do this. So he'll have the chance to look at this.
+Tony:OK.
+Delia:And.
+Delia:And for the other.
+Delia:Don't you? I lost again. We are not against to do more or to describe more things. I just need to understand.
+Delia:What I need to describe the basis so I could prepare something.
+Tony:Again, just just left sentence I I do not want to drag it anymore because I think I made myself clear. The last sentence is that as I foresee that the we will have some.
+Tony:Problems with taxi and they see a we want to use this as one of those points of the system that work in our favor and this is what I'm saying.
+Tony:I.
+Delia:Yes, I agree with. I agree with you. In this case, I would, I don't know. Like maybe you are closer with the with the rezar.
+Delia:Uh. If they know that something is missing and output one, I would not share it with AKSHI. I would comment it internally with return it and would work together with the for example with the contractor, and we'll would help contractor to specify together what is missing. So we would have a whole functionality and then I would submit everything to action.
+Tony:OK.
+Delia:Because I I know what rezar want.
+Delia:But what Rezar wants is, unfortunately, I thought I even the tender we discussed this already with Marianna. Even the tender has output 1, output 2 and output 7 for specification.
+Tony:OK, OK.
+Delia:So I'm not against.
+Delia:We we we can discuss it just.
+Delia:Uh.
+Delia:This is unfortunately this is the station.
+Delia:OK, so this is the plan. Genarda. Shefqet. Tony, if something is not clear in the.
+Delia:This case that we described.
+Delia:And looking let us know and we can make a short call and clarify everything. So you would not write the whole call and maybe it's not even needed.
+Tony:OK.
+Tony:It's better this way.
+Gena:Of.
+Delia:Uh, OK.
+Delia:Something I wanted to.
+Delia:Regarding the specifications that you are you are describing, if I understand correctly.
+Delia:Well, if you can, rezar didn't provide to us anything officially. So we can, we will not provide anything for now.
+Delia:But external.
+Tony:Yeah, yeah, correct. This is so this was a. This is what I was. I was trying to say that.
+Tony:The I think that the there there are enough as they are right now in 13 technical specifications so.
+Tony:Let's let's stick to that and elaborate later.
+Tony:Yeah.
+Tony:Thank you.
+Delia:OK. OK, so good. OK. Thank you. Thank you everybody.
+Delia:By.
+Tony:2000.
+Shefqet Lulja:Thank you.
+Blaz:But.
+Gena:Bye bye.
